@@ -8,7 +8,8 @@ class App extends Component {
     profiles: []
   };
 
-  urlImage = "";
+  urlImage =
+    "https://images.unsplash.com/photo-1579852915565-3e7ca937ade9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjc5MTU0fQ ";
 
   addNewProfile = profileData => {
     this.setState(prevState => ({
@@ -19,10 +20,6 @@ class App extends Component {
   cityPic = props => {
     console.log("it is works", props);
   };
-
-  componentDidMount() {
-    this.urlImage = this.props;
-  }
 
   render() {
     return (
