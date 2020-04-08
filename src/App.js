@@ -25,7 +25,9 @@ class App extends Component {
     return (
       <div
         style={{
-          background: "url('" + this.urlImage + "')",
+          backgroundImage: "url('" + this.urlImage + "')",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
           width: "100%",
           height: "100%",
           position: "fixed"
