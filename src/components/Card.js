@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "./Pic";
+
 import classes from "./comstyle.module.css";
 
 const card = props => {
@@ -10,7 +10,6 @@ const card = props => {
       <div className={classes.Info}>
         <h3> {profile.name} </h3>
         <p> {profile.location}</p>
-        <Pic loc={profile.location} />
       </div>
     </div>
   );

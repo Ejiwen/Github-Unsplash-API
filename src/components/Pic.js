@@ -26,7 +26,8 @@ const Pic = props => {
 
   return (
     <div>
-      {photo && <img alt="pic desc" src={photo[0].urls.regular} />}
+      {/* {photo && <img alt="pic desc" src={photo[0].urls.regular} />} */}
+      {photo && props.cityPic(photo[0].urls.regular)}
 
       {/* photo &&
         photo.map(img => (
