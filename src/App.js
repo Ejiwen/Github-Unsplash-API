@@ -33,8 +33,8 @@ class App extends Component {
           position: "fixed"
         }}
       >
-        <div className="App">
-          <h1> The GitHub Cards App </h1>
+        <div>
+          <h1 className="App"> The GitHub Cards App </h1>
           <Form onSend={this.addNewProfile} />
           <CardList profileCard={this.state.profiles} cityPic={this.cityPic} />
         </div>
