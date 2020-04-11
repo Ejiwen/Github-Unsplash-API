@@ -34,7 +34,7 @@ class App extends Component {
         }}
       >
         <div>
-          <h1 className="App"> The GitHub Cards App </h1>
+          <h1 className="App"> GitHub Cards App </h1>
           <Form onSend={this.addNewProfile} />
           <CardList profileCard={this.state.profiles} cityPic={this.cityPic} />
         </div>
