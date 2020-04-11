@@ -34,7 +34,11 @@ class App extends Component {
         }}
       >
         <div>
-          <h1 className="App"> GitHub Cards App </h1>
+          <h1 className="App"> GitHub Cards App V1 </h1>
+          <p>
+            {" "}
+            In the next version i will use APOLLO and GraphQL instead axios{" "}
+          </p>
           <Form onSend={this.addNewProfile} />
           <CardList profileCard={this.state.profiles} cityPic={this.cityPic} />
         </div>
