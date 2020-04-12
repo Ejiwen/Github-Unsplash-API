@@ -18,7 +18,7 @@ class App extends Component {
   };
 
   cityPic = props => {
-    console.log("it is works", props);
+    console.log("it is works...BRAVO!!!!!!", props);
   };
 
   render() {
@@ -35,7 +35,13 @@ class App extends Component {
       >
         <div>
           <h1 className="App"> GitHub Cards App V1 </h1>
-          <p style={{ color: "white", textAlign: "center" }}>
+          <p
+            style={{
+              color: "white",
+              textAlign: "center",
+              fontWeight: "bolder"
+            }}
+          >
             {" "}
             In the next version i will use APOLLO and GraphQL instead axios{" "}
           </p>
