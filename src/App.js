@@ -35,7 +35,7 @@ class App extends Component {
       >
         <div>
           <h1 className="App"> GitHub Cards App V1 </h1>
-          <p>
+          <p style={{ color: "white", textAlign: "center" }}>
             {" "}
             In the next version i will use APOLLO and GraphQL instead axios{" "}
           </p>
